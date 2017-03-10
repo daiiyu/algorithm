@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/superzou/Documents/c++/heapsort/HeapSort.h
+algorithm
+-
+
+/Users/superzou/Documents/c++/heapsort/main.cpp
+iostream
+-
+HeapSort.h
+/Users/superzou/Documents/c++/heapsort/HeapSort.h
+

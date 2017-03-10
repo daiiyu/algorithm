@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/superzou/Documents/c++/insert-sort/InsertSort.h
+iostream
+-
+
+/Users/superzou/Documents/c++/insert-sort/main.cpp
+cstdlib
+-
+iostream
+-
+vector
+-
+map
+-
+InsertSort.h
+/Users/superzou/Documents/c++/insert-sort/InsertSort.h
+algorithm
+-
+
