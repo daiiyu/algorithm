@@ -1,0 +1,45 @@
+#include <iostream>
+#include <vector>
+#include <cstring>
+using namespace std;
+
+#define nil 0
+struct node
+{
+  int left;
+  int right;
+  int parent;
+  int value;
+
+  node & operator = (const node & n)
+  {
+    if (&n == this)
+      return *this;
+    
+    left = n.left;
+    right = n.right;
+    value = n.value;
+  }
+};
+void tree_insert(node *Tree,node & z)
+{
+  int 
+  (if Tree[].parent == nil)//empty tree
+    
+    
+  
+  
+}
+
+int main(int argc, char **argv)
+{
+  int src[] = {11,21,23,3,8,10,18};
+  int length = src;
+  node Tree[sizeof(src)/sizeof(int)];
+  memset(Tree, nil, sizeof(Tree));
+
+  
+  
+  
+  
+}
